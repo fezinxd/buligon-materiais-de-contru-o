@@ -124,7 +124,10 @@ div.produtos{
   font-size: 2vh;
   border: 3px solid #133E87;
   background-color: #608BC1;
-  margin-bottom: 5px;
+  margin-bottom: 1.5px;
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 50%;
 
 }
 .opmobile{
