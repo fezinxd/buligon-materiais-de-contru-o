@@ -43,14 +43,7 @@ div.filhascont{
     margin-bottom: 5%;
 }
 ul.home{
-    border: 4px solid #133E87;
-    background-color: #CBDCEB;
-    text-align: center;
-  
-    font-size: 2.8vh;
-    border-radius: 15px;
-    margin-left: 25%;
-    margin-right: 25%;
+    display: none;
 }
 li{
     display: list-item;
@@ -126,6 +119,17 @@ div.produtos{
 .display{
     display: flex;
 }
+/*USADOS Na tabela*/
+.prodmobile{
+  font-size: 2vh;
+  border: 3px solid #133E87;
+  background-color: #608BC1;
+  margin-bottom: 5px;
+
+}
+.opmobile{
+  display: block;
+}
 
 /*USADOS NOS "PRODUTOS"*/
 
@@ -169,8 +173,11 @@ div.produtos{
   .mensagem{
     display: none;
   }
+  /*PC*/
   @media screen and (min-width: 1024px){
-    
+    .opmobile{
+      display: none;
+    }
     div.esquerda{
    
         border: 4px solid #133E87;
@@ -182,6 +189,7 @@ div.produtos{
         border-radius: 15px;
     }
     ul.home{
+        display: block;
         border: 4px solid #133E87;
         background-color: #CBDCEB;
         text-align: center;
