@@ -121,6 +121,11 @@ div.produtos{
 }
 /*USADOS Na tabela*/
 .prodmobile{
+  display: block;
+  display: none;
+  
+}
+.prodmenu{
   font-size: 2vh;
   border: 3px solid #133E87;
   background-color: #608BC1;
@@ -128,7 +133,18 @@ div.produtos{
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
+}
+.prodmenu:focus-within{
+  .prodmobile{display: block;
+    font-size: 2vh;
+  border: 3px solid #133E87;
+  background-color: #608BC1;
+  margin-bottom: 1.5px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
 
+  }
 }
 .opmobile{
   display: block;
