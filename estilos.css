@@ -47,11 +47,9 @@ ul.home{
 }
 li{
     display: list-item;
+    list-style: none;
 }
-a:hover{
-    text-decoration: none;
-    background-color: #608BC1;
-}
+
 a:focus{
     text-decoration: none;
 }
@@ -156,7 +154,49 @@ div.produtos{
   display: block;
 }
 
+.separa{
+
+}
+.menuprincipal{
+  margin-bottom: 5%;
+background-color:#CBDCEB;
+border: 2px solid #608BC1;
+}
+
 /*USADOS NOS "PRODUTOS"*/
+.botmenu{
+  width: 10%;
+}
+.menu{
+    text-align: left;
+    background-color:#CBDCEB;
+    font-size: 7vh;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding: 2% ;
+
+ 
+}
+.op{
+
+  display: block;
+  display: none;
+  background-color:#CBDCEB;  
+  font-size: 50px;
+  border-radius: 10px;
+
+  
+}
+.backdown{
+
+}
+
+.menu:focus-within{
+  .op{
+      display: block;
+     
+  }
+}
 
 
   .bottomright {
@@ -176,7 +216,6 @@ div.produtos{
     margin-bottom: 10%;
     padding: 20px;
     border: 2px solid #133E87;
-    top: 8px;
     right: 16px;
     font-size: 2vh;
     text-align: center;
@@ -200,6 +239,10 @@ div.produtos{
   }
   /*PC*/
   @media screen and (min-width: 1024px){
+    a:hover{
+      text-decoration: none;
+      background-color: #608BC1;
+  }
     .opmobile{
       display: none;
     }
