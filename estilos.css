@@ -239,6 +239,7 @@ border: 2px solid #608BC1;
   }
   /*PC*/
   @media screen and (min-width: 1024px){
+    .separa{display: none;}
     a:hover{
       text-decoration: none;
       background-color: #608BC1;
